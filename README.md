@@ -1,7 +1,19 @@
-# STAR-PINN  
-**Stacked Adaptive Residual Physics-Informed Neural Network for 2D Time-Domain Magnetic Diffusion**
+# A STacked Adaptive Residual PINN (STAR-PINN) Approach to 2D Time-Domain Magnetic Diffusion in Nonlinear Materials
 
-Official implementation of **STAR-PINN**, a Physics-Informed Neural Network (PINN) designed to solve the **2D time-domain magnetic diffusion (Maxwell) equation** in linear and nonlinear materials.
+[![Project Website](https://img.shields.io/badge/website-STAR_PINN-blue)](https://shayandodge.github.io/)
+[![License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
+
+---
+
+## 🔗 Official Implementation
+
+This repository is the **official implementation** of the paper:
+
+> **“A STacked Adaptive Residual PINN (STAR-PINN) Approach to 2D Time-Domain Magnetic Diffusion in Nonlinear Materials”**  
+> Published in IEEE Access, 2025  
+> [https://ieeexplore.ieee.org/document/10755077 ](https://ieeexplore.ieee.org/abstract/document/11122441/) 
+
+It provides a Physics-Informed Neural Network (PINN) designed to solve the **2D time-domain magnetic diffusion (Maxwell) equation** in linear and nonlinear materials.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/76ff0ac5-5085-40f1-bb37-2d42a213c998" alt="STAR-PINN" width="800"/>
