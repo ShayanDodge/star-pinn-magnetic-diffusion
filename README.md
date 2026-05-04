@@ -1,4 +1,4 @@
-# ⭐ STAR-PINN  
+# STAR-PINN  
 **Stacked Adaptive Residual Physics-Informed Neural Network for 2D Time-Domain Magnetic Diffusion**
 
 Official implementation of **STAR-PINN**, a Physics-Informed Neural Network (PINN) designed to solve the **2D time-domain magnetic diffusion (Maxwell) equation** in linear and nonlinear materials.
