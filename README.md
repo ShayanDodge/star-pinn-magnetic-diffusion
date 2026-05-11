@@ -71,7 +71,7 @@ This residual formulation improves:
 
 The nonlinear PDE solved in this work is:
 
-$$
+```math
 \frac{\partial}{\partial x}
 \left(
 \nu_B \frac{\partial A_z}{\partial x}
@@ -83,7 +83,7 @@ $$
 \right)
 =
 \sigma \frac{\partial A_z}{\partial t}
-$$
+```
 
 where:
 
