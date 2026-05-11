@@ -49,18 +49,14 @@ Instead of relying on a single deep neural network, each block progressively ref
 
 ## Residual Formulation
 
-\[
-A_z^{(2)} = A_z^{(1)} + \alpha_1 A_z^{(0)}
-\]
+$$A_z^{(2)} = A_z^{(1)} + \alpha_1 A_z^{(0)}$$
 
-\[
-A_z = A_z^{(2)} + \alpha_2 A_z^{(3)}
-\]
+$$A_z = A_z^{(2)} + \alpha_2 A_z^{(3)}$$
 
 where:
 
-- \(A_z^{(i)}\) denotes the output of each PINN block
-- \(\alpha_i\) are trainable adaptive coefficients
+- $A_z^{(i)}$ denotes the output of each PINN block
+- $\alpha_i$ are trainable adaptive coefficients
 
 This residual formulation improves:
 
@@ -75,7 +71,7 @@ This residual formulation improves:
 
 The nonlinear PDE solved in this work is:
 
-\[
+$$
 \frac{\partial}{\partial x}
 \left(
 \nu_B \frac{\partial A_z}{\partial x}
@@ -87,21 +83,21 @@ The nonlinear PDE solved in this work is:
 \right)
 =
 \sigma \frac{\partial A_z}{\partial t}
-\]
+$$
 
 where:
 
-- \(A_z\) = magnetic vector potential
-- \(\nu_B\) = nonlinear magnetic reluctivity
-- \(\sigma\) = electrical conductivity
+- $A_z$ = magnetic vector potential
+- $$\nu_B$$ = nonlinear magnetic reluctivity
+- $$\sigma$$ = electrical conductivity
 
 The nonlinear reluctivity is defined as:
 
-\[
+$$
 \nu_B =
 \frac{1}
 {\mu_r \mu_0 (1 - b|B|)}
-\]
+$$
 
 ---
 
