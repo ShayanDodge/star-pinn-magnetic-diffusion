@@ -157,19 +157,6 @@ jupyter notebook 2D_Diffusion_STARPINN.ipynb
 
 ---
 
-# 🧪 Example
-
-```python
-from pinn import PINN
-
-model = PINN()
-
-model.train()
-model.predict()
-```
-
----
-
 # 📊 Results
 
 STAR-PINN achieves:
