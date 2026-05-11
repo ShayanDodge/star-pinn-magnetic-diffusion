@@ -49,12 +49,6 @@ Unlike traditional data-driven models, PINNs embed the governing PDEs directly i
 
 ## ▶️ Running Experiments
 
-### Case I — 1D Linear Diffusion  
-python experiments/case1_1D_linear.py  
-
-### Case II — 2D Linear Diffusion  
-python experiments/case2_2D_linear.py  
-
 ### Case III — 2D Nonlinear Diffusion (STAR-PINN)  
 python experiments/case3_2D_nonlinear.py  
 
@@ -62,12 +56,10 @@ python experiments/case3_2D_nonlinear.py
 
 ## 🧠 Method
 
-### TD-PINN
+### STAR-PINN
 - Inputs: spatial coordinates *(x, y)* and time *(t)*  
 - Learns PDE solution via loss minimization  
 - Uses automatic differentiation for derivatives  
-
-### STAR-PINN
 - Stacked residual PINN blocks  
 - Each block learns a correction (residual)  
 - Adaptive weighting improves convergence  
@@ -75,15 +67,7 @@ python experiments/case3_2D_nonlinear.py
 **Residual formulation:**  
 A_z = A_2 + α · A_3  
 
----
 
-## 🔗 Paper-to-Code Mapping
-
-| Problem Type              | Script |
-|--------------------------|--------|
-| 1D Linear Case           | `case1_1D_linear.py` |
-| 2D Linear Case           | `case2_2D_linear.py` |
-| 2D Nonlinear (STAR-PINN) | `case3_2D_nonlinear.py` |
 
 ---
 
